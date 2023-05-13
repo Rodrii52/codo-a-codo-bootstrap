@@ -19,15 +19,15 @@ body {
 }
 
 .bg-carousel-ba1 {
-    background-image: url(/assets/img/ba1.jpg);
+    background-image: url(../assets/img/ba1.jpg);
 }
 
 .bg-carousel-ba2 {
-    background-image: url(/assets/img/ba2.jpg);
+    background-image: url(../assets/img/ba2.jpg);
 }
 
 .bg-carousel-ba3 {
-    background-image: url(/assets/img/ba3.jpg);
+    background-image: url(../assets/img/ba3.jpg);
 }
 
 .carousel-item {
