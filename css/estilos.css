@@ -89,6 +89,7 @@ main {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    height: 30vh;
 }
 
 .columnaDer {
@@ -189,10 +190,6 @@ main {
         width: 90%;
     }
 
-    .columnaIzq {
-        height: 30vh;
-    }
-
     .columnaDer {
         min-height: 35vh;
     }
@@ -204,9 +201,6 @@ main {
 }
 
 @media screen and (min-width: 567px) and (max-width:991px) {
-    .columnaIzq {
-        height: 30vh;
-    }
     .formularioOrador {
         width: 60%;
     }
@@ -214,7 +208,7 @@ main {
 
 @media screen and (min-width:768px) and (min-height: 850px) {
     .columnaIzq {
-        height: 30vh;
+        height: auto;
     }
     .formularioOrador {
         width: 60%;
