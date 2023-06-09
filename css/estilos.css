@@ -15,7 +15,7 @@ body {
 }
 
 .navbar-dark .navbar-nav .colorVerde {
-    color: rgb(9, 130, 47);
+    color: #09822f;
 }
 
 .bg-carousel-ba1 {
@@ -141,6 +141,15 @@ body {
     margin-bottom: 1rem;
 }
 
+.botones-ticket {
+    background: #96c93e;
+    color: #fff !important;
+}
+
+.botones-ticket:hover {
+    background: #74aa17;
+}
+
 #footer {
     background: linear-gradient(to right, #1d3947, #1d4962, #1e5372);
 }
@@ -183,5 +192,21 @@ body {
     }
     .formularioOrador {
         width: 60%;
+    }
+}
+
+@media screen and (min-width:768px) and (min-height: 850px) {
+    .columnaIzq {
+        height: 30vh;
+    }
+    .formularioOrador {
+        width: 60%;
+    }
+
+    .final-pagina {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        min-height: 4.8rem;
     }
 }
